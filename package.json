@@ -1,0 +1,21 @@
+{
+  "name": "coinz",
+  "version": "1.0.0",
+  "description": "cryptocurrency cli to fetch latest prices",
+  "main": "index.js",
+  "bin": {
+    "coinz": "bin/coinz.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Samuel Klepper",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.21.0",
+    "colors": "^1.4.0",
+    "commander": "^6.2.0",
+    "configstore": "^5.0.1",
+    "inquirer": "^7.3.3"
+  }
+}
